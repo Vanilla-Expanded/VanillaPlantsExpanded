@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+    <ThingCategoryDef>
+      <defName>VCE_Fruit</defName>
+      <label>raw fruits</label>
+      <parent>PlantFoodRaw</parent>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+      <iconPath>Things/Items/Raw/VCE_Oranges</iconPath>
+    </ThingCategoryDef>
+	
+
+
+
+</Defs>

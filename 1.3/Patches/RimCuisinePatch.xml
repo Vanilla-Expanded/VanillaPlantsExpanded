@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>RimCuisine 2 Core (Continued)</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+
+
+
+				<!-- VPE Beets to chioggia beets -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Beet"]/label</xpath>
+					<value>
+						<label>chioggia beet plant</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Beet"]/description</xpath>
+					<value>
+						<description>An herb-like vegetable widely cultivated for humans and livestock alike. Though these look like ordinary beets from the outside, on the inside they have distinct red-and-white-striped flesh. These are highest on the sweetness scale. While beets do require rich soil they are quite hearty, and will continue to grow very slowly through winter. They need to be planted during growing season, though.</description>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawBeets"]/label</xpath>
+					<value>
+						<label>chioggia beets</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawBeets"]/description</xpath>
+					<value>
+						<description>An herb-like vegetable widely cultivated for humans and livestock alike. Though these look like ordinary beets from the outside, on the inside they have distinct red-and-white-striped flesh. These are highest on the sweetness scale.</description>		
+					</value>
+				</li>
+				
+				
+				<!-- RC2 eggplants to fairy tale eggplants -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="RC2_PlantEggPlant"]/label</xpath>
+					<value>
+						<label>fairy tale eggplant</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="RC2_PlantEggPlant"]/description</xpath>
+					<value>
+						<description>These spongy fruits are technically berries - but, use them like a berry, and you'll have a bad time. Instead, they're used similarly to vegetables. Grown in temperate and tropical climates. The tiny fairy tale variety has purple and white stripes and is no bigger than the palm of your hand. They can be prepared in the same way as larger eggplants, but take especially well to grilling since they’re so tender.</description>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="RC2_RawEggplants"]/label</xpath>
+					<value>
+						<label>fairy tale eggplants</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="RC2_RawEggplants"]/description</xpath>
+					<value>
+						<description>Raw fairy tale eggplants. Used in a variety of dishes. Technically they're a fruit, but culinarily they're used as a vegetable.</description>		
+					</value>
+				</li>
+				
+				<!-- VPE Cabbage to Cauliflower -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Cabbage"]/label</xpath>
+					<value>
+						<label>cauliflower plant</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Cabbage"]/description</xpath>
+					<value>
+						<description>A large round vegetable that has a hard white centre surrounded by green leaves, naturally high in fiber and B-vitamins. This particular strain seems highly resistant to airborne toxins and radiation.</description>		
+					</value>
+				</li>
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Cabbage"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Patches/Plants/VCE_Cauliflower</texPath>	
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawCabbage"]/label</xpath>
+					<value>
+						<label>cauliflowers</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawCabbage"]/description</xpath>
+					<value>
+						<description>A large round vegetable that has a hard white centre surrounded by green leaves, naturally high in fiber and B-vitamins.</description>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawCabbage"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Patches/Raw/VCE_Cauliflowers</texPath>	
+					</value>
+				</li>
+				
+				<!-- VPE Onions to White Onions -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Onion"]/label</xpath>
+					<value>
+						<label>white onion plant</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Onion"]/description</xpath>
+					<value>
+						<description>A strong and pungent variety of onions, perfect for flavourful salads or for general cooking applications when strong flavours are desired. Cannot suffer the effects of blight.</description>		
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawOnion"]/label</xpath>
+					<value>
+						<label>white onions</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawOnion"]/description</xpath>
+					<value>
+						<description>A strong and pungent variety of onions, perfect for flavourful salads or for general cooking applications when strong flavours are desired.</description>		
+					</value>
+				</li>
+
+				<!-- VPE Pumpkins to Mammoth Gold Pumpkins -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Pumpkin"]/label</xpath>
+					<value>
+						<label>mammoth gold pumpkin plant</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Pumpkin"]/description</xpath>
+					<value>
+						<description>One of the biggest varieties of pumpkin, the mammoth gold can grow to between 25 and 50 Kg of weight. Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest. However, their durability means added weight and mass - Too cumbersome for hydroponics basins.</description>		
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawPumpkin"]/label</xpath>
+					<value>
+						<label>mammoth gold pumpkins</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawPumpkin"]/description</xpath>
+					<value>
+						<description>One of the biggest varieties of pumpkin, the mammoth gold can grow to between 25 and 50 Kg of weight. Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest.</description>		
+					</value>
+				</li>
+
+				<!-- VPE Tomatoes to Red Beefsteak Tomatoes -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Tomato"]/label</xpath>
+					<value>
+						<label>red beefsteak tomato plant</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_Tomato"]/description</xpath>
+					<value>
+						<description>A variety of tomatoes with a firm, meaty, rich, vibrant red colour. Its flavour is mild, juicy and balanced compared to other varieties. Tomatoes are easily removed from the vine without having to uproot the plant.</description>		
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawTomatoes"]/label</xpath>
+					<value>
+						<label>red beefsteak tomatoes</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawTomatoes"]/description</xpath>
+					<value>
+						<description>A variety of tomatoes with a firm, meaty, rich, vibrant red colour. Its flavour is mild, juicy and balanced compared to other varieties.</description>		
+					</value>
+				</li>
+
+				<!-- VPE Apples to Granny Smith Apples -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_AppleTree"]/label</xpath>
+					<value>
+						<label>granny smith apple tree</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_AppleTree"]/description</xpath>
+					<value>
+						<description>A tree bearing hard apples, with a light green skin and crisp, juicy flesh. The flavour is tart and acidic. It remains firm when baked, making it a very popular cooking apple used in pies, where it can be sweetened.</description>		
+					</value>
+				</li>
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_AppleTree"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Patches/Plants/VCE_GrannySmithAppleTree</texPath>	
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawApple"]/label</xpath>
+					<value>
+						<label>granny smith apples</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawApple"]/description</xpath>
+					<value>
+						<description>Hard apples, with a light green skin and crisp, juicy flesh. The flavour is tart and acidic. It remains firm when baked, making it a very popular cooking apple used in pies, where it can be sweetened.</description>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawApple"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Patches/Raw/VCE_GrannySmithApples</texPath>	
+					</value>
+				</li>
+				
+				<!-- VPE Cherry to Sakura -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_CherryTree"]/label</xpath>
+					<value>
+						<label>sakura tree</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_CherryTree"]/description</xpath>
+					<value>
+						<description>Also known as the cherry blossom, Sakura trees produce small fruits known as sakuranbo, small cherries that do not have much flesh beyond the seed within. Due to their bitter taste, sakuranbo are not traditionally eaten raw, but these trees have been genetically modified to produce sweeter tasting fruits. This particular genus is quite beautiful, speckled with pink blossoms throughout, blooming fully each winter.</description>		
+					</value>
+				</li>
+			
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawCherry"]/label</xpath>
+					<value>
+						<label>sakuranbo</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawCherry"]/description</xpath>
+					<value>
+						<description>Small cherries that do not have much flesh beyond the seed within. Due to their bitter taste, sakuranbo are not traditionally eaten raw, but these fruits have been genetically modified to have a sweeter taste.</description>		
+					</value>
+				</li>
+				
+				<!-- VPE Peach to Apricot -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_PeachTree"]/label</xpath>
+					<value>
+						<label>apricot tree</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_PeachTree"]/description</xpath>
+					<value>
+						<description>The apricot is a fruit that resembles the peach but much smaller, pale yellow or orange with some red shades. It is mainly consumed fresh, although it is also used to make some by-products like stewed fruit, jams, juices and dried apricots. Apricots have a high concentration of vitamin C. This variety of apricot tree is quite hardy, and they can be planted in stony soil.</description>		
+					</value>
+				</li>
+			
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawPeach"]/label</xpath>
+					<value>
+						<label>apricots</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawPeach"]/description</xpath>
+					<value>
+						<description>A fruit that resembles the peach but much smaller, pale yellow or orange with some red shades. It is mainly consumed fresh, although it is also used to make some by-products like stewed fruit, jams, juices and dried apricots. Apricots have a high concentration of vitamin C.</description>		
+					</value>
+				</li>
+				
+				<!-- VPE Plum to Damson Plum -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_PlumTree"]/label</xpath>
+					<value>
+						<label>damson plum tree</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_PlumTree"]/description</xpath>
+					<value>
+						<description>The Damson plum tree, also archaically called the "damascene", is a bushy tree bearing a relatively small ovoid fruit with a distinctive, somewhat astringent taste, widely used for culinary purposes, particularly in fruit preserves and jams. Many cultures also dry-age plums into prunes for long-term preservation.</description>		
+					</value>
+				</li>
+			
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawPlum"]/label</xpath>
+					<value>
+						<label>damson plums</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawPlum"]/description</xpath>
+					<value>
+						<description>A relatively small ovoid fruit with a distinctive, somewhat astringent taste, widely used for culinary purposes, particularly in fruit preserves and jams. Many cultures also dry-age plums into prunes for long-term preservation.</description>		
+					</value>
+				</li>
+				
+				<!-- VPE Banana to Gros Michel -->
+
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_BananaTree"]/label</xpath>
+					<value>
+						<label>gros michel banana tree</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_BananaTree"]/description</xpath>
+					<value>
+						<description>A tall tropical tree adorned with a cluster of yellow, elongated berries. These trees have been genetically modified to resist the fungal infections that nearly caused their extinction in old Terra. The Gros Michel variety has a distinct taste, different from that of Cavendish variety bananas. Bananas are easy to harvest, since a whole "hand" can be cut at the same time.</description>		
+					</value>
+				</li>
+			
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawBanana"]/label</xpath>
+					<value>
+						<label>gros michel bananas</label>		
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingDef[defName="VCE_RawBanana"]/description</xpath>
+					<value>
+						<description>Yellow, elongated berries. These bananas have been genetically modified to resist the fungal infections that nearly caused their extinction in old Terra. The Gros Michel variety has a distinct taste, different from that of Cavendish variety bananas.</description>		
+					</value>
+				</li>
+				
+				<!-- VPE Fruit Category name change -->
+				
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ThingCategoryDef[defName="VCE_Fruit"]/label</xpath>
+					<value>
+						      <label>raw dessert fruits</label>
+		
+					</value>
+				</li>
+				
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

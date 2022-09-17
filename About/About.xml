@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vanilla Plants Expanded</name>
+	<author>Oskar Potocki, Sarg Bjornson, Chowder</author>
+	<supportedVersions>
+		<li>1.3</li>
+		<li>1.2</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	</loadAfter>
+
+	<packageId>VanillaExpanded.VPlantsE</packageId>
+
+	<description>Vanilla Plants Expanded is a core module in a plant-based in the new mod series “Vanilla Cuisine Expanded” from the Vanilla Expanded team. After hours of designing, testing and  designing again, Sarg Bjornson, Oskar Potocki and Chowder are proud to present this content pack to help you with your RimWorld farming simulator. This mod features a variety of fruit plants and crops to spice up your fields, with each prop adding something different and unique, allowing you to use the power of farming differently based on your situation and needs.
+
+Adding a variety of crops, each with different mechanics and traits, but still kept within vanilla balancing, we are hoping to give you a chance to tailor your farming industry to your liking. These plants are not meant to replace vanilla plants - they are balanced in-line with those, meaning rice and potatoes will still be useful!
+
+Fruit trees are biome-locked to two unique new fruit trees per biome, however bear in mind they do not differ nutrition-wise from one another - which is partly the reason why we decided to biome lock them. We also didn’t want to flood your farming menus with 12 different fruit trees that yield pretty much the same, but reskinned, item. This has all been done with the ease of use in mind.
+
+A new ability to plow soil has also been introduced once you meet the designated research. Plowing soil boosts its fertility to that of Rich soil, however when the plant is harvested, tilled soil returns to its previous form and needs to be plowed again.
+
+This mod has built in patches for Vanilla Cooking Expanded, adding new functionality, such as new condiment recipes!
+
+	</description>
+</ModMetaData>
