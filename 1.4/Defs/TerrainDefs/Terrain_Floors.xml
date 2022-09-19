@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+ 
+  <TerrainDef>
+    <defName>VCE_TilledSoil</defName>
+    <label>tilled soil</label>
+	<description>Tillage is the agricultural preparation of soil by mechanical agitation of various types, increasing terrain fertility. Tilling soil can only be done on normal soil (not rich soil). When a plant is harvested on a plowed soil, the floor becomes a normal soil again and needs to be plowed again manually.</description>
+
+    <texturePath>Terrains/VCE_TilledSoil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>350</renderPrecedence>
+	 <layerable>true</layerable>
+    <pathCost>8</pathCost>
+	  <filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
+	 <designationCategory>Orders</designationCategory>
+	 <uiIconPath>UI/VCE_Plow</uiIconPath>
+	<constructEffect>ConstructDirt</constructEffect>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+	  <WorkToBuild>800</WorkToBuild>
+    </statBases>
+    <scatterType>Rocky</scatterType>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>1.4</fertility>
+    <takeFootprints>True</takeFootprints>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+<!--	  <researchPrerequisites>
+      <li>VCE_Tillage</li>
+    </researchPrerequisites>-->
+	 <placeWorkers>
+      <li>VanillaPlantsExpanded.PlaceWorker_TilledSoil</li>
+    </placeWorkers>
+  </TerrainDef>
+
+</Defs>
