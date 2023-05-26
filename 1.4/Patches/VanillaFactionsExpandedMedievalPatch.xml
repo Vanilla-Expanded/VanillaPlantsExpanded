@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Medieval</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="VFEM_RawGrapes"]/thingCategories</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="VFEM_RawGrapes"]</xpath>
+						<value>
+							<thingCategories/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="VFEM_RawGrapes"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Fruit</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+
