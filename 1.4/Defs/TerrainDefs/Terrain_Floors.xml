@@ -46,12 +46,20 @@
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
-<!--	  <researchPrerequisites>
-      <li>VCE_Tillage</li>
-    </researchPrerequisites>-->
+
 	 <placeWorkers>
       <li>VanillaPlantsExpanded.PlaceWorker_TilledSoil</li>
     </placeWorkers>
+	<modExtensions>
+		<li Class="VFECore.ThingDefExtension">
+			<constructionSkillRequirement>
+				<workType>Growing</workType>
+				<skill>Plants</skill>
+				<level>1</level>
+				<reportStringOverride>tilling soil.</reportStringOverride>
+			</constructionSkillRequirement>
+		</li>
+	</modExtensions>
   </TerrainDef>
 
 </Defs>
