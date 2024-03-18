@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	
+	<WorkGiverDef Name="VEF_GrowingGiverBase" Abstract="True">
+		<workType>Growing</workType>
+		<verb>till</verb>
+		<gerund>tilling</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+
+	<WorkGiverDef ParentName="VEF_GrowingGiverBase">
+		<defName>VPE_TillSoilWorkDeliverBp</defName>
+		<label>till soil</label>		
+		<giverClass>VFECore.WorkGiver_ConstructionSkill_DeliverResourcesToBlueprints</giverClass>
+		<priorityInType>80</priorityInType>
+	</WorkGiverDef>
+	
+	<WorkGiverDef ParentName="VEF_GrowingGiverBase">
+		<defName>VPE_TillSoilWorkBuild</defName>
+		<label>till soil</label>		
+		<giverClass>VFECore.WorkGiver_ConstructionSkill_FinishFrames</giverClass>
+		<priorityInType>70</priorityInType>
+	</WorkGiverDef>
+	
+	<WorkGiverDef ParentName="VEF_GrowingGiverBase">
+		<defName>VPE_TillSoilWorkDeliverFr</defName>
+		<label>till soil</label>		
+		<giverClass>VFECore.WorkGiver_ConstructionSkill_DeliverResourcesToFrames</giverClass>
+		<priorityInType>60</priorityInType>
+	</WorkGiverDef>
+
+	
+</Defs>

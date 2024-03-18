@@ -42,7 +42,7 @@
 			
 		</graphicData>
 		<statBases>
-			<MarketValue>4</MarketValue>
+			<MarketValue>1.5</MarketValue>
 			<Mass>1</Mass>
 		</statBases>
 		<comps>
@@ -81,7 +81,7 @@
 		</comps>
 
 		<ingestible>
-			<foodType>OmnivoreHuman</foodType>
+			<foodType>VegetableOrFruit</foodType>
 		</ingestible>    
 	</ThingDef>
 	

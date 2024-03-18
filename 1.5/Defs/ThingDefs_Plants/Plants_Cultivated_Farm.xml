@@ -6,7 +6,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Grass</defName>
 		<label>Grass</label>
-		<description>Cultivated grass. Grows anywhere there is a little light and minimally fertile ground.</description>
+		<description>Cultivated grass. Grows anywhere there is a little light and minimally fertile ground.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Grass can be used to feed cattle, similar to haygrass. It isn't affected by blight, but can't be harvested and stored as hay can.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Flammability>1.3</Flammability>
@@ -33,6 +33,7 @@
 				<li>Ground</li>
 			</sowTags>
 			<neverBlightable>true</neverBlightable>
+			
 		</plant>
 	</ThingDef>
 
@@ -41,7 +42,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_TallGrass</defName>
 		<label>tall grass</label>
-		<description>Cultivated tall grass. Grows anywhere there is a little light and minimally fertile ground. Slows down anyone moving over it.</description>
+		<description>Cultivated tall grass. Grows anywhere there is a little light and minimally fertile ground. Slows down anyone moving over it.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Grass can be used to feed cattle, similar to haygrass. It isn't affected by blight, but can't be harvested and stored as hay can.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Flammability>1.3</Flammability>
@@ -116,13 +117,14 @@
 			<wildClusterWeight>300</wildClusterWeight>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Onion</defName>
 		<label>onion plant</label>
-		<description>An edible bulb of pungent, savory taste and smell with almost as many varieties as cooking applications. Cannot suffer the effects of blight.</description>
+		<description>An edible bulb of pungent, savory taste and smell with almost as many varieties as cooking applications.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Onion isn't affected by blight.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Nutrition>0.2</Nutrition>
@@ -153,13 +155,14 @@
 			<visualSizeRange>0.4~0.8</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Pumpkin</defName>
 		<label>pumpkin plant</label>
-		<description>Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest. However, their durability means added weight and mass - Too cumbersome for hydroponics basins.</description>
+		<description>Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest. However, their durability means added weight and mass - Too cumbersome for hydroponics basins.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Pumpkin harvests will always suceed, independently of the colonist's plants skill.</description>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Nutrition>0.4</Nutrition>
@@ -191,13 +194,14 @@
 			<visualSizeRange>0.5~0.9</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Pepper</defName>
 		<label>pepper plant</label>
-		<description>Tiny, spicy, crimson pods often used in sauces, relishes, or powders. While the flavor itself is mild the capsaicin contained inside means humans find them oddly addicting, if painful when consumed in mass. Animals are known to avoid eating them entirely.</description>
+		<description>Tiny, spicy, crimson pods often used in sauces, relishes, or powders. While the flavor itself is mild the capsaicin contained inside means humans find them oddly addicting, if painful when consumed in mass. Animals are known to avoid eating them entirely.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Animals won't eat the pepper plant, having an effective nutrition of zero. Note however that they will eat the harvested produce normally.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Nutrition>0</Nutrition>
@@ -231,6 +235,7 @@
 			<visualSizeRange>0.3~0.8</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -238,7 +243,7 @@
 		<defName>VCE_Peas</defName>
 		<label>pea plant</label>
 		<thingClass>VanillaPlantsExpanded.Plant_RainAffected</thingClass>
-		<description>Spherical green seeds tucked safely away in a fleshy pod. Pea plants are known to be quite thirsty, and will benefit greatly from rainfall. Peas are also notable for having potentially long shelf-lives when dried properly.</description>
+		<description>Spherical green seeds tucked safely away in a fleshy pod. Pea plants are known to be quite thirsty, and will benefit greatly from rainfall. Peas are also notable for having potentially long shelf-lives when dried properly.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Normally less efficient than corn, rice or potatoes, peas will however receive a huge 50% growth boost if it is raining.</description>
 		<statBases>
 			<MaxHitPoints>70</MaxHitPoints>
 			<Nutrition>0.2</Nutrition>
@@ -269,6 +274,7 @@
 			<visualSizeRange>0.3~1</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -276,7 +282,7 @@
 		<defName>VCE_Eggplant</defName>
 		<label>eggplant</label>
 		<thingClass>VanillaPlantsExpanded.Plant_HighTempAffected</thingClass>
-		<description>A bulbous purple fruit of the nightshade family. Eggplant is rarely served as a side, generally filling the role of the main component of the dish. Flourishes in warm weather.</description>
+		<description>A bulbous purple fruit of the nightshade family. Eggplant is rarely served as a side, generally filling the role of the main component of the dish. Flourishes in warm weather.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Eggplants will grow 30% faster if temperature is between 37 and 60 ºC.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Nutrition>0.3</Nutrition>
@@ -308,6 +314,7 @@
 			<visualSizeRange>0.3~1</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -315,7 +322,7 @@
 		<defName>VCE_Cabbage</defName>
 		<label>cabbage plant</label>
 		<thingClass>VanillaPlantsExpanded.Plant_StopsGrowingInToxins</thingClass>
-		<description>A somewhat hardy, leafy green vegetable, often chopped and then fermented or stewed. This particular strain seems highly resistant to airborne toxin and radiation.</description>
+		<description>A somewhat hardy, leafy green vegetable, often chopped and then fermented or stewed. This particular strain seems highly resistant to airborne toxin and radiation. \n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Cabbages are unaffected by toxic fallout and, contrary to other plants, won't die from it.</description>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Nutrition>0.3</Nutrition>
@@ -347,6 +354,7 @@
 			<visualSizeRange>0.3~1</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
@@ -354,7 +362,7 @@
 		<defName>VCE_Beet</defName>
 		<label>beet plant</label>
 		<thingClass>VanillaPlantsExpanded.Plant_WinterResistant</thingClass>
-		<description>An herb-like vegetable widely cultivated for humans and livestock alike, notably nutritious and historically used in dye making. While beets do require rich soil they are quite hearty, and will continue to grow very slowly through winter. They need to be planted during growing season, though.</description>
+		<description>An herb-like vegetable widely cultivated for humans and livestock alike, notably nutritious and historically used in dye making.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; While beets do require rich soil they are quite hearty, and will continue to grow at 10% speed through winter. They need to be planted during growing season, though.</description>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<Nutrition>0.18</Nutrition>
@@ -385,13 +393,14 @@
 			<visualSizeRange>0.3~0.8</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Tomato</defName>
 		<label>tomato plant</label>
-		<description>A series of juicy, glossy red fruits attached by vine, used commonly as a vegetable. Strong stewing releases natural sugars and mellows out acids contained within. Tomatoes are easily removed from the vine without having to uproot the plant.</description>
+		<description>A series of juicy, glossy red fruits attached by vine, used commonly as a vegetable. Strong stewing releases natural sugars and mellows out acids contained within. Tomatoes are easily removed from the vine without having to uproot the plant.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Tomatoes won't be destroyed on harvest, similar to fruit trees.</description>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Nutrition>0.2</Nutrition>
@@ -423,6 +432,7 @@
 			<immatureGraphicPath>Things/Plant/Crops/VCE_TomatoPlantImmature</immatureGraphicPath>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 

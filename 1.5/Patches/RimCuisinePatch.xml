@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>[1.0, 1.1] RimCuisine 2 Core</li>
+			<li>RimCuisine 2 Core (Continued)</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">
@@ -378,7 +378,7 @@
 				<li Class="PatchOperationReplace"> 
 					<xpath>/Defs/ThingCategoryDef[defName="VCE_Fruit"]/label</xpath>
 					<value>
-						      <label>raw biome fruits</label>
+						      <label>raw dessert fruits</label>
 		
 					</value>
 				</li>
