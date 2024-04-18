@@ -10,7 +10,7 @@ using Verse;
 
 namespace VanillaPlantsExpanded
 {
-    public class Plant_ChecksRiver: Plant
+    public class Plant_ChecksRiver : Plant
     {
 
         const int radius = 3;
@@ -20,11 +20,13 @@ namespace VanillaPlantsExpanded
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
             base.SpawnSetup(map, respawningAfterLoad);
+            numberOfRiver = 0;
             int num = GenRadial.NumCellsInRadius(radius);
             for (int i = 0; i < num; i++)
             {
                 IntVec3 c = this.Position + GenRadial.RadialPattern[i];
-                if (c.InBounds(map)) {
+                if (c.InBounds(map))
+                {
                     TerrainDef terrain = c.GetTerrain(map);
 
                     if (terrain != null && terrain.IsRiver)
@@ -33,11 +35,13 @@ namespace VanillaPlantsExpanded
                     }
 
                 }
-                
 
 
-              
+
+
             }
+
+
 
         }
 
@@ -61,17 +65,17 @@ namespace VanillaPlantsExpanded
         {
             get
             {
-               
-                return 1f + (0.01f* numberOfRiver);
+
+                return 1f + (0.01f * numberOfRiver);
             }
         }
 
         public override void ExposeData()
         {
             base.ExposeData();
-            
+
             Scribe_Values.Look<int>(ref this.numberOfRiver, "numberOfRiver", 0, false);
-       
+
         }
 
 
