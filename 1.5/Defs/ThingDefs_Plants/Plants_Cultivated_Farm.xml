@@ -162,7 +162,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>VCE_Pumpkin</defName>
 		<label>pumpkin plant</label>
-		<description>Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest. However, their durability means added weight and mass - Too cumbersome for hydroponics basins.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Pumpkin harvests will always suceed, independently of the colonist's plants skill.</description>
+		<description>Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest. However, their durability means added weight and mass - Too cumbersome for hydroponics basins.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Pumpkin harvests will always succeed, independently of the colonist's plants skill.</description>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Nutrition>0.4</Nutrition>
