@@ -24,7 +24,7 @@ namespace VanillaPlantsExpanded
                 {
                     return 0f;
                 }
-                return this.GrowthRateFactor_Fertility * this.GrowthRateFactor_Temperature * this.GrowthRateFactor_Light * this.GrowthRateFactor_Rain;
+                return this.GrowthRateFactor_Fertility * this.GrowthRateFactor_Temperature * this.GrowthRateFactor_Light * this.GrowthRateFactor_Rain * GrowthRateFactor_NoxiousHaze * GrowthRateFactor_Drought; ;
             }
         }
 
