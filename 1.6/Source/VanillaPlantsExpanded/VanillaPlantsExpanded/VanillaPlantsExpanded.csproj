@@ -300,6 +300,7 @@
   <ItemGroup>
     <Compile Include="Comps\CompProperties_Prunes.cs" />
     <Compile Include="Comps\CompPrunes.cs" />
+    <Compile Include="DefExtensions\WinterBloomingExtension.cs" />
     <Compile Include="Defs\TillableTerrainDef.cs" />
     <Compile Include="Patches\HarmonyInstance.cs" />
     <Compile Include="Patches\Plant_PlantCollected.cs" />
@@ -315,5 +316,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
