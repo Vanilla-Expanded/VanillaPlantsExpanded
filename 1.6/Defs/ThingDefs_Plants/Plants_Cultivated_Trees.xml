@@ -258,7 +258,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>VCE_BearBerryBush</defName>
 		<label>bearberry bush</label>
-		<description>A low-lying bush speckled with pink berries that thrives in poor, even sandy soil. While raw bearberries possess an acidic and bland taste, after cooking a natural sweetness comes through and the results can be much more palatable.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; All fruit trees take about four times as much space as regular crops, take a long time to grow and produce fruits that can be eaten raw. They aren't destroyed after harvesting but have a limited lifespan and will eventually need to be replanted.\n\nBearberry bushes can be grown in pots.</description>
+		<description>A low-lying bush speckled with pink berries that thrives in poor, even sandy soil. While raw bearberries possess an acidic and bland taste, after cooking a natural sweetness comes through and the results can be much more palatable.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; All fruit trees take about four times as much space as regular crops, take a long time to grow and produce fruits that can be eaten raw. They aren't destroyed after harvesting but have a limited lifespan and will eventually need to be replanted.\n\nBearberry bushes can be grown in pots. They won't block wind turbines.</description>
 		<graphicData>
 			<texPath>Things/Plant/Trees/VCE_BearBerryBush</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -275,6 +275,7 @@
 			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<ingestible />
+		<blockWind>false</blockWind>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
 			<growDays>25</growDays>
