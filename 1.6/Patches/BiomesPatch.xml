@@ -91,6 +91,13 @@
 						<VCE_Opuntia>0.01</VCE_Opuntia>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName = "GlacialPlain"]/wildPlants</xpath>
+					<value>
+						<VCE_CherryTree>0.01</VCE_CherryTree>
+						<VCE_BearBerryBush>0.01</VCE_BearBerryBush>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>
