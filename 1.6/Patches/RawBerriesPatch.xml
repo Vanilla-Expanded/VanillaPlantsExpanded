@@ -2,9 +2,11 @@
 <Patch>
 	<Operation Class="PatchOperationAdd">
 		<success>Always</success>
-		<xpath>/Defs/ThingDef[defName="RawBerries"]/thingCategories</xpath>
+		<xpath>/Defs/ThingDef[defName="RawBerries"]</xpath>
 		<value>
-			<li>VCE_Fruit</li>
+			<thingCategories>
+				<li>VCE_Fruit</li>
+			</thingCategories>
 		</value>
 	</Operation>
 </Patch>
